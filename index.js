@@ -29,10 +29,10 @@ app.use(
 
 //create connection
 const conn = mysql.createConnection({
-  host: "localhost",
-  user: "root" /* MySQL User */,
-  password: "root" /* MySQL Password */,
-  database: "freshBasket" /* MySQL Database */,
+  host: "bbcb2gf6nwxb2mj6y0bf-mysql.services.clever-cloud.com",
+  user: "udnxmzypmunvop2n" /* MySQL User */,
+  password: "udnxmzypmunvop2n" /* MySQL Password */,
+  database: "bbcb2gf6nwxb2mj6y0bf" /* MySQL Database */,
 });
 
 conn.connect((err) => {
