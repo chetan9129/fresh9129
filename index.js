@@ -31,7 +31,7 @@ app.use(
 const conn = mysql.createConnection({
   host: "bbcb2gf6nwxb2mj6y0bf-mysql.services.clever-cloud.com",
   user: "udnxmzypmunvop2n" /* MySQL User */,
-  password: "udnxmzypmunvop2n" /* MySQL Password */,
+  password: "" /* MySQL Password */,
   database: "bbcb2gf6nwxb2mj6y0bf" /* MySQL Database */,
 });
 
